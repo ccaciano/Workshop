@@ -43,8 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Banco.cs" />
+    <Compile Include="Cidade.cs" />
+    <Compile Include="Cliente.cs" />
+    <Compile Include="Conta.cs" />
+    <Compile Include="Endereco.cs" />
+    <Compile Include="Enum\TipoConta.cs" />
+    <Compile Include="Enum\TipoTransacao.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Transacoes.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
